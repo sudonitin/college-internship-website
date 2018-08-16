@@ -1,0 +1,24 @@
+	
+
+#fluid_1{
+	background: url("head.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.header-img{
+	width: 100%;
+	padding-bottom: 3%;
+	padding-top: 5%;
+}
+
+@media screen and (min-width: 1024px){
+	.header-img{
+	width: 50%;
+	padding-bottom: 3%;
+	padding-top: 5%;
+}
+} 

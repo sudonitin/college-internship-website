@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+body{
+	background: #12c2e9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #d4d5d6, #fcfcfc, #d4d5d6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #d4d5d6, #fcfcfc, #d4d5d6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 300vh;
+
+}
+
+header{
+	font-family: 'Paytone One';
+}
+
+.head_name{
+	color: #ed9315;	
+}
+
+p{
+	font-size: 120%;
+	font-family: 'Roboto';
+}

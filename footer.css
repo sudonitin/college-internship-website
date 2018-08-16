@@ -1,0 +1,31 @@
+body{
+	background: #12c2e9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #d4d5d6, #fcfcfc, #d4d5d6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #d4d5d6, #fcfcfc, #d4d5d6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container-fluid{
+	position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #191a1c;
+   color: #888c91;
+}
+
+.container{
+	padding: 1%;
+}
+
+.footer-logo{
+	width: 20%;
+}
+
+.font{
+	float: right;
+}
+
+.inputs{
+	background-color: #1F1F1F;
+	padding: 0.8%
+}

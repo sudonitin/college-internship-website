@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+body{
+	height: 100vh;
+}
+.company_name{
+	position: absolute; 	
+	left: 50%;
+	top: 50%; 
+	transform: translate(-50%, -50%);
+	font-family: 'Barlow', sans-serif;
+	font-weight: bold;
+	z-index: 1000;
+	font-size: 316%;
+}
+
+.company_name span {
+	animation: fadein 1.5s backwards;
+	-webkit-animation: fadein 1.5s backwards;
+	border: 1px #fff;
+}
+
+.company_name span:nth-child(3) {
+	-webkit-animation-delay: 400ms;
+}
+
+@keyframes fadein{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fadein{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.slideshow,
+.slideshow:after {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.slideshow li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    opacity: 0;
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 18s linear infinite 0s;
+    animation: imageAnimation 18s linear infinite 0s;
+}
+
+.slideshow li:nth-child(1) span { 
+	animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+	background-image: url("https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") }
+.slideshow li:nth-child(2) span {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Geely_assembly_line_in_Beilun%2C_Ningbo.JPG/1200px-Geely_assembly_line_in_Beilun%2C_Ningbo.JPG");
+    -webkit-animation-delay:3s;
+    -moz-animation-delay: 3s;
+    -o-animation-delay: 3s;
+    -ms-animation-delay: 3s;
+    animation-delay: 3s;
+}
+.slideshow li:nth-child(3) span {
+    background-image: url("https://images.caricos.com/l/land_rover/2013_range_rover/images/1600x1200/2013_range_rover_114_1600x1200.jpg");
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay:6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.slideshow li:nth-child(4) span {
+    background-image: url("https://comparabien-default.s3.amazonaws.com/field/image/pe_-_consejos_para_llevar_a_tu_auto_al_mecanico_por_primera_vez.jpg");
+    -webkit-animation-delay: 9;
+    -moz-animation-delay: 9s;
+    -o-animation-delay: 9s;
+    -ms-animation-delay: 9s;
+    animation-delay: 9s;
+}
+
+.slideshow li:nth-child(5) span {
+	background-image: url("https://www.ktas.com.au/custom/files/media/service-image.jpg");
+	-webkit-animation-delay: 12s;
+	animation-delay: 12s;
+}
+
+.slideshow li:nth-child(6) span{
+	background-image: url("http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/istock-486895782.jpg?itok=CGw2je96&resize=1100x619");
+	-webkit-animation-delay: 15s;
+	animation-delay:  15s
+}
+
+@-webkit-keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    -webkit-transform: scale(1.12);/*trial*/
+	    -webkit-animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    -webkit-transform: scale(1.13);
+	    -webkit-animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    -webkit-transform: scale(1.15);
+	}
+	22% {
+		opacity: 0;
+		-webkit-transform: scale(1.15) translateY(-20%);
+	}
+	25% {
+	    opacity: 0;
+	    -webkit-transform: scale(1.15) translateY(-100%);
+	}
+	100% { opacity: 0 }
+}
+
+@keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.15);
+	}
+	22% {
+		opacity: 0;
+		-webkit-transform: scale(1.15) translateY(-20%);
+	}
+	25% {
+	    opacity: 0;
+	    -transform: scale(1.15) translateY(-100%);
+	}
+	100% { opacity: 0 }
+}
+
+
+
+.scrollbar {
+		font-family: Calibri;
+		font-weight: bold;
+		color:  #2e2e1f;
+		font-size: 220%;
+		position: absolute;
+		animation: topup 1s;
+		animation-fill-mode: forwards;
+	}
+
+	.scrollbar-anim{
+		border-top-style: solid;
+		border-width: 2px;
+		border-color:  #2e2e1f;
+		animation: abc 1s infinite;
+	}
+
+
+.scrollbar-text:after{
+	content: "s w i p e";
+}
+
+
+@media only screen and (min-width: 1040px) {
+
+	.scrollbar {
+		font-family: Calibri;
+		font-weight: bold;
+		color:  #2e2e1f;
+		font-size: 130%;
+		position: absolute;
+		animation: topup 1s;
+		animation-fill-mode: forwards;
+	}
+
+	.scrollbar-anim{
+		border-top-style: solid;
+		border-width: 2px;
+		border-color:  #2e2e1f;
+		animation: abc 1s infinite;
+	}
+
+	.scrollbar-text:after{
+	content: "s c r o l l";
+	}
+}
+	
+
+@keyframes abc {
+		0% {margin-left:5%; width: 0%}
+	    25%{width: 25%}
+	    50%{ margin-left: 30%; width: 60%}
+	}/*NOTE: transformations add nai kia hai dusre browsers ke liye, ye firefox ke liye hai */
+
+
+@keyframes topup{
+	from {bottom: 0px; left: 50%; transform: translate(-50%);}
+	to {bottom: 50px; left: 50%; transform: translate(-50%);}
+}
+
+	
