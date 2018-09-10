@@ -17,8 +17,8 @@ header{
 }
 
 p{
-	font-size: 120%;
-	font-family: 'Roboto';
+	font-size: 120%;  
+  font-family: 'Roboto';
 }
 
 .broken{
@@ -85,6 +85,8 @@ hr.style-eight:after {
   transition: .5s ease;
   border-style: double;
   border-width: 5px;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .middle {
@@ -178,5 +180,20 @@ hr.style-eight:after {
 
 .inputs{
 	background-color: #1F1F1F;
-	padding: 0.8%
+	padding: 0.8%;
+  border-radius: 4px;
+}
+
+.button{
+  padding: 0.5% 1%;
+  font-size: 105%;
+  border-radius: 4px;
+  background-color: #e02f2f;
+  color: white;
+  border: solid #e02f2f;
+}
+
+.button:hover{
+  background-color: #e21818;
+  border: solid #e02f2f;
 }

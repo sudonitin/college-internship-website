@@ -9,7 +9,7 @@
 
 		<div class="topnav" id="myTopnav" style="position: sticky; top: 0">
 		  <a href="http://localhost/my_gemini_2/home.php">Home</a>
-		  <a href="#news">Services</a>
+		  <a href="./services.php">Services</a>
 		  <a href="#contact">Cashless Insurance</a>
 		  <a href="http://localhost/my_gemini_2/gallery.php">Gallery</a>
 		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsive_bar()">&#9776;</a>

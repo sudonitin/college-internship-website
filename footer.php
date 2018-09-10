@@ -7,7 +7,6 @@
 
 </head>
 
-<?php echo'
 <div class="container-fluid">
 	<div class="container">
 		<img src="final-logo.png" class="footer-logo"><br>
@@ -19,6 +18,6 @@
 		</form>
 		copyright(c) 2013. Gemini Automobiles. All rights Reserved. <font class="font">Developed by </font>
 	</div>
-</div>'; ?>
+</div>
 
 </html>
