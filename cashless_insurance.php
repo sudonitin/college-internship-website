@@ -75,25 +75,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>gallery</title>
+	<title>services</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="services.css">
 	<style>
-		.row img:hover{
-			opacity: 0.6;
-		}
-
-		.row img{
-			border-radius: 2%;
-			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+		.row{
+			font-family: 'Roboto';
+			font-size: 120%;
 		}
 	</style>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
-	<link rel="stylesheet" type="text/css" href="gallery.css">
-</head>	
+</head>
 
-		<div class="topnav container-fluid" id="myTopnav" style="position: sticky; top: 0">
-		  <a href="http://localhost/my_gemini_2/home.php">Home</a>
+
+	<div class="topnav container-fluid" id="myTopnav" style="position: sticky; top: 0">
+		  <a href="./home.php">Home</a>
 		  <a href="./services.php">Services</a>
 		  <a href="./cashless_insurance.php">Cashless Insurance</a>
 		  <a href="./gallery.php">Gallery</a>
@@ -113,41 +110,45 @@ function responsive_bar() {
 
 <body>
 	<div class="container">
-		
-		<div class="row"> 
-  <div class="column" id="#column1">
-    <img src="1.jpg" style="width:100%">
-    <img src="2.jpg" style="width:100%">
-    <img src="3.jpg" style="width:100%">
-    <img src="4.jpg" style="width:100%">
-    <img src="5.jpg" style="width:100%">
-  </div>
-  <div class="column" id="column2">
-    <img src="6.jpg" style="width:100%">
-    <img src="7.jpg" style="width:100%">
-    <img src="8.jpg" style="width:100%">
-    <img src="9.jpg" style="width:100%">
-    <img src="10.jpg" style="width:100%">
-  </div>  
-  <div class="column" id="column3">
-    <img src="5.jpg" style="width:100%">
-    <img src="4.jpg" style="width:100%">
-    <img src="1.jpg" style="width:100%">
-    <img src="3.jpg" style="width:100%">
-    <img src="2.jpg" style="width:100%">
-  </div>
-  <div class="column" id="column4">
-    <img src="9.jpg" style="width:100%">
-    <img src="10.jpg" style="width:100%">
-    <img src="8.jpg" style="width:100%">
-    <img src="7.jpg" style="width:100%">
-    <img src="6.jpg" style="width:100%">
-  </div>
-</div>
-
+		<header><h2><i class="fas fa-tag"></i>
+		Cashless <span class="head_name">Insurance</span></h2></header>
+		<p>Gemini Automobile is approved by Castrol India Ltd. as Castrol Pitstop/Nippon Paints as Nippon Paint Express/Bosch India Ltd. as Express Car Services. Gemini Automobiles is specialized in all types of major/minor repairs in mechanical/accidental claims/Specialized painting supported by Nippon Paints/Electrical/AC/Alighment Jobs/Bosch genuine spaires in all Indian cars running on-road as on today.
+		</p><hr>
+		<h3 style="color: #00802b; padding-top: 0.5%" class="abc">PREFERED WORKSHOP</h3>
+			<div class="container" id="list-of-services" style="padding-right: 4%; padding-left: 4%; padding-top: 1%; font-family: Josefin Sans">
+				<div class="row">
+					<div class="col-6"><i class="fa fa-plus-circle" aria-hidden="true"></i> ICICI LOMBARD GENERAL INSURANCE CO. LTD.</div>
+					<div class="col-6"><i class="fa fa-plus-circle" aria-hidden="true"></i> 
+UNIVERSAL SOMPO GENERAL INSURANCE CO.</div>
+				</div>
+				<div class="row">
+					<div class="col-6"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+ L & T GENERAL INSURANCE CO. LTD.</div>
+					<div class="col-6"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+ ROYAL SUNDARAM GENERAL INSURANCE CO.</div>
+				</div>
+				<div class="row">
+					<div class="col-6"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+ BHARTI AXA GENERAL INSURANCE CO.</div>
+					<div class="col-6"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+ RELIANCE GENERAL INSURANCE CO. LTD.</div>
+				</div>
+				<div class="row">
+					<div class="col-6"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+ LIBERTY VIDEOCON GENERAL INSURANCE CO.</div>
+					<div class="col-6"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+ SHRIRAM GENERAL INSURANCE CO. LTD.</div>
+				</div>
+				<div class="row">
+					<div class="col-6"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+ CHOLA MS GENERAL INSURANCE CO.</div>
+					<div class="col-6"></div>
+				</div>
+			</div>
 	</div><br>
 
-		<footer>
+
+	<footer>
 			<div class="container-fluid" id="footer">
 	<div class="container" id="footer-container">
 		<img src="final-logo.png" class="footer-logo"><br>
@@ -163,8 +164,6 @@ function responsive_bar() {
 </div>
 
 		</footer>
-
+	
 </body>
-
 </html>
-
