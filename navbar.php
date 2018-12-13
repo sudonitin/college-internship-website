@@ -8,7 +8,7 @@
 </head>	
 
 		<div class="topnav" id="myTopnav" style="position: sticky; top: 0">
-		  <a href="http://localhost/my_gemini_2/home.php">Home</a>
+		  <a href="./home.php">Home</a>
 		  <a href="./services.php">Services</a>
 		  <a href="./cashless_insurance.php">Cashless Insurance</a>
 		  <a href="./gallery.php">Gallery</a>
