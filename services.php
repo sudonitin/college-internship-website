@@ -92,7 +92,7 @@
 	<div class="topnav container-fluid" id="myTopnav" style="position: sticky; top: 0">
 		  <a href="./home.php">Home</a>
 		  <a href="./services.php">Services</a>
-		  <a href="#contact">Cashless Insurance</a>
+		  <a href="./cashless_insurance.php">Cashless Insurance</a>
 		  <a href="./gallery.php">Gallery</a>
 		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responsive_bar()">&#9776;</a>
 		</div>
