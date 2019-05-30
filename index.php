@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>navbar</title>
+	<title>Gemini Automobiles</title>
 	<link rel="stylesheet" type="text/css" href="land.css">
 	<script type="text/javascript" src="land.js"></script>
 </head>

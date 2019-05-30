@@ -76,7 +76,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>services</title>
+	<title>Other services</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -160,7 +160,7 @@ UNIVERSAL SOMPO GENERAL INSURANCE CO.</div>
 			<label>Comment<br><textarea name="message" placeholder="Describe your query here" class="inputs"></textarea></label><br><br>
 			<input type="submit" name="submit" value="submit" class="button">
 		</form>
-		copyright(c) 2013. Gemini Automobiles. All rights Reserved. <font class="font">Developed by <a href = "https://github.com/globefire">Globefire</a></font>
+		copyright(c) 2019. Nitin Sahu. All rights Reserved. <font class="font">Developed by <a href = "https://github.com/globefire">Nitin</a></font>
 	</div>
 </div>
 

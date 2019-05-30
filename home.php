@@ -77,7 +77,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>current_Home</title>
+	<title>Home</title>
 	<?php include "navbar.php";?>
 	
 	<link rel="stylesheet" type="text/css" href="home.css">
@@ -130,7 +130,7 @@
 			<label>Comment<br><textarea name="message" placeholder="Describe your query here" class="inputs" required></textarea></label><br><br>
 			<input type="submit" name="submit" value="submit" class="button">
 		</form>
-		copyright(c) 2013. Gemini Automobiles. All rights Reserved. <font class="font">Developed by <a href = "https://github.com/globefire">Globefire</a></font>
+		copyright(c) 2019. Nitin Sahu. All rights Reserved. <font class="font">Developed by <a href = "https://github.com/globefire">Nitin</a></font>
 	</div>
 	
 </div>
