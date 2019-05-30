@@ -5,13 +5,11 @@ body{
 }
 .company_name{
 	position: absolute; 	
-	left: 50%;
-	top: 50%; 
-	transform: translate(-50%, -50%);
+	top: 45%;
 	font-family: 'Barlow', sans-serif;
 	font-weight: bold;
-	z-index: 1000;
-	font-size: 316%;
+	z-index: +1;
+	font-size: 600%;
 }
 
 .company_name span {
@@ -187,6 +185,16 @@ body{
 
 
 @media only screen and (min-width: 1040px) {
+	.company_name{
+		position: absolute; 	
+		left: 50%;
+		top: 50%; 
+		transform: translate(-50%, -50%);
+		font-family: 'Barlow', sans-serif;
+		font-weight: bold;
+		z-index: 1000;
+		font-size: 450%;
+	}
 
 	.scrollbar {
 		font-family: Calibri;

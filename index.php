@@ -7,7 +7,7 @@
 </head>
 <body onscroll="MyFunc()">
 		<h1 class="company_name">
-			<span style="color:  #666666">GEMINI</span><span style="color: #e65c00"> AUTOMOBILES</span>
+			<span style="color:  #666666;" >GEMINI</span><span style="color: #e65c00;"> AUTOMOBILES</span>
 		</h1>
 		<ul class="slideshow" style="list-style-type: none;">
 			<li><span></span></li>
