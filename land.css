@@ -1,5 +1,41 @@
 
 @import url('https://fonts.googleapis.com/css?family=Barlow');
+
+@media only screen and (min-width: 1040px) {
+	.company_name{
+		position: absolute; 	
+		left: 50%;
+		top: 50%; 
+		transform: translate(-50%, -50%);
+		font-family: 'Barlow', sans-serif;
+		font-weight: bold;
+		z-index: 1000;
+		font-size: 450%;
+	}
+
+	.scrollbar {
+		font-family: Calibri;
+		font-weight: bold;
+		color:  #2e2e1f;
+		font-size: 130%;
+		position: absolute;
+		animation: topup 1s;
+		animation-fill-mode: forwards;
+	}
+
+	.scrollbar-anim{
+		border-top-style: solid;
+		border-width: 2px;
+		border-color:  #2e2e1f;
+		animation: abc 1s infinite;
+	}
+
+	.scrollbar-text:after{
+	content: "s c r o l l";
+	}
+}
+	
+
 body{
 	height: 100vh;
 }
@@ -9,7 +45,7 @@ body{
 	font-family: 'Barlow', sans-serif;
 	font-weight: bold;
 	z-index: +1;
-	font-size: 450%;
+	font-size: 600%;
 }
 
 .company_name span {
@@ -184,40 +220,6 @@ body{
 }
 
 
-@media only screen and (min-width: 1040px) {
-	.company_name{
-		position: absolute; 	
-		left: 50%;
-		top: 50%; 
-		transform: translate(-50%, -50%);
-		font-family: 'Barlow', sans-serif;
-		font-weight: bold;
-		z-index: 1000;
-		font-size: 450%;
-	}
-
-	.scrollbar {
-		font-family: Calibri;
-		font-weight: bold;
-		color:  #2e2e1f;
-		font-size: 130%;
-		position: absolute;
-		animation: topup 1s;
-		animation-fill-mode: forwards;
-	}
-
-	.scrollbar-anim{
-		border-top-style: solid;
-		border-width: 2px;
-		border-color:  #2e2e1f;
-		animation: abc 1s infinite;
-	}
-
-	.scrollbar-text:after{
-	content: "s c r o l l";
-	}
-}
-	
 
 @keyframes abc {
 		0% {margin-left:5%; width: 0%}
