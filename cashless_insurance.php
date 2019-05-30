@@ -159,7 +159,7 @@ UNIVERSAL SOMPO GENERAL INSURANCE CO.</div>
 			<label>Comment<br><textarea name="message" placeholder="Describe your query here" class="inputs"></textarea></label><br><br>
 			<input type="submit" name="submit" value="submit" class="button">
 		</form>
-		copyright(c) 2013. Gemini Automobiles. All rights Reserved. <font class="font">Developed by <a href = "">Globefire</a></font>
+		copyright(c) 2013. Gemini Automobiles. All rights Reserved. <font class="font">Developed by <a href = "https://github.com/globefire">Globefire</a></font>
 	</div>
 </div>
 
