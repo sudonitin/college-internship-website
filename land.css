@@ -35,11 +35,8 @@
 	}
 }
 	
-
-body{
-	height: 100vh;
-}
-.company_name{
+@media only screen and (max-width: 500px){
+	.company_name{
 	position: absolute; 	
 	top: 45%;
 	font-family: 'Barlow', sans-serif;
@@ -47,6 +44,13 @@ body{
 	z-index: +1;
 	font-size: 600%;
 }
+
+}
+
+body{
+	height: 100vh;
+}
+
 
 .company_name span {
 	animation: fadein 1.5s backwards;
