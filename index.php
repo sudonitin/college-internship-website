@@ -9,13 +9,13 @@
 		@media only screen and (max-width: 700px) {
 	.company_name{
 		position: absolute; 	
-		/*left: 50%;*/
+		left: 50%;
 		top: 50%; 
-		/*transform: translate(-50%, -50%);*/
+		transform: translate(-50%, -50%);
 		font-family: 'Barlow', sans-serif;
 		font-weight: bold;
 		z-index: 1000;
-		font-size: 600%;
+		font-size: 300%;
 	}
 		.scrollbar {
 		font-family: Calibri;
