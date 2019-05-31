@@ -15,7 +15,7 @@
 		font-family: 'Barlow', sans-serif;
 		font-weight: bold;
 		z-index: 1000;
-		font-size: 450%;
+		font-size: 410%;
 		display: block;
 		text-align: center;
 	}
