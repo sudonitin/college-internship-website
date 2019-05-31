@@ -2,8 +2,58 @@
 <html>
 <head>
 	<title>Gemini Automobiles</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="land.css">
 	<script type="text/javascript" src="land.js"></script>
+	<style type="text/css">
+		@media only screen and (max-width: 700px) {
+	.company_name{
+		position: absolute; 	
+		/*left: 50%;*/
+		top: 50%; 
+		/*transform: translate(-50%, -50%);*/
+		font-family: 'Barlow', sans-serif;
+		font-weight: bold;
+		z-index: 1000;
+		font-size: 600%;
+	}
+}	
+	@media only screen and (min-width: 1000px) {
+	.company_name{
+		position: absolute; 	
+		left: 50%;
+		top: 50%; 
+		transform: translate(-50%, -50%);
+		font-family: 'Barlow', sans-serif;
+		font-weight: bold;
+		z-index: 1000;
+		font-size: 450%;
+	}
+
+	.scrollbar {
+		font-family: Calibri;
+		font-weight: bold;
+		color:  #2e2e1f;
+		font-size: 130%;
+		position: absolute;
+		animation: topup 1s;
+		animation-fill-mode: forwards;
+	}
+
+	.scrollbar-anim{
+		border-top-style: solid;
+		border-width: 2px;
+		border-color:  #2e2e1f;
+		animation: abc 1s infinite;
+	}
+
+	.scrollbar-text:after{
+	content: "s c r o l l";
+	}
+}
+	
+
+	</style>
 </head>
 <body onscroll="MyFunc()">
 		<h1 class="company_name">
