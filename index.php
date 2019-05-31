@@ -16,6 +16,8 @@
 		font-weight: bold;
 		z-index: 1000;
 		font-size: 300%;
+		display: block;
+		text-align: center;
 	}
 		.scrollbar {
 		font-family: Calibri;
