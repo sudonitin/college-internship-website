@@ -43,7 +43,7 @@
 
 
 }	
-	@media only screen and (min-width: 1000px) {
+	@media only screen and (min-width: 700px) {
 	.company_name{
 		position: absolute; 	
 		left: 50%;
