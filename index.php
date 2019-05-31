@@ -17,6 +17,29 @@
 		z-index: 1000;
 		font-size: 600%;
 	}
+		.scrollbar {
+		font-family: Calibri;
+		font-weight: bold;
+		color:  #2e2e1f;
+		font-size: 220%;
+		position: absolute;
+		animation: topup 1s;
+		animation-fill-mode: forwards;
+	}
+
+	.scrollbar-anim{
+		border-top-style: solid;
+		border-width: 2px;
+		border-color:  #2e2e1f;
+		animation: abc 1s infinite;
+	}
+
+
+.scrollbar-text:after{
+	content: "s w i p e";
+}
+
+
 }	
 	@media only screen and (min-width: 1000px) {
 	.company_name{
