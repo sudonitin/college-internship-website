@@ -15,7 +15,7 @@
 		font-family: 'Barlow', sans-serif;
 		font-weight: bold;
 		z-index: 1000;
-		font-size: 300%;
+		font-size: 450%;
 		display: block;
 		text-align: center;
 	}
@@ -52,7 +52,9 @@
 		font-family: 'Barlow', sans-serif;
 		font-weight: bold;
 		z-index: 1000;
-		font-size: 450%;
+		font-size: 500%;
+		display: block;
+		text-align: center;
 	}
 
 	.scrollbar {
